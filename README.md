@@ -29,11 +29,21 @@ It has detailed information on:
 ## 1. Do more skills get you a higher paying job?
 ## Power Query: ETL
 
-**Extract**
+##**Extract**
 - I used Power Query to extract the original dataset to create two queries
 - The first query had all the data job information from the original dataset with an index column (job_id).
 - The second query listed the skills for each job_id. The second query only has two columns, the job_id and the skills column, we need the job_id with the skills column is to ensure when unpivoting the skills they stay under the same unique ID.
 <img width="547" height="384" alt="image" src="https://github.com/user-attachments/assets/8e9906fa-ec15-44f4-a2ca-f094fad77885" />
 
-**Transform**
+##**Transform**
+- Then I transformed each query by chaning column types, removed unnecessary columns, replaced values to remove specific words such as "[" and trimmed excess whitespace
+- 
+- data_jobs_all
+
+- data_job_salary
+
+##**Load**
+- Finally, I loaded both transformed queries into the workbook
+
+## Analysis
 
