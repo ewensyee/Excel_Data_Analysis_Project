@@ -26,7 +26,7 @@ It has detailed information on:
 3. What are the top skills for data jobs?
 4. What's the pay for the top 10 skills?
    
-## 1. Do more skills get you a higher paying job?
+## 1. Does more skills get you a higher paying job?
 ## Power Query: ETL
 
 ### Extract
@@ -55,8 +55,10 @@ It has detailed information on:
 <img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/586dfa7bac85c398dca91709f912a2ed40c76592/Load-skills.jpg">
 
 ## Insights
-<img width="893" height="474" alt="image" src="https://github.com/user-attachments/assets/39d81d3f-36fc-40bc-90a4-489663e5392c" />
+- There
 
-- There 
+<img width="893" height="474" alt="image" src="https://github.com/user-attachments/assets/5f8a4a85-5dca-4582-817d-1e62128e2c24" />
+
+
 
 
