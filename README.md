@@ -47,8 +47,11 @@ It has detailed information on:
 ### Load
 - Finally, I loaded both transformed queries into the workbook
   - data_job_salary
+  - 
 <img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/586dfa7bac85c398dca91709f912a2ed40c76592/Load-all.jpg">
+
   - data_job_skills
+    
 <img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/586dfa7bac85c398dca91709f912a2ed40c76592/Load-skills.jpg">
 
 ## Analysis
