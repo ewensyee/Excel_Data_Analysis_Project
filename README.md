@@ -39,9 +39,9 @@ It has detailed information on:
 - Then I transformed each query by chaning column types, removed unnecessary columns, replaced values to remove specific words such as "[" and trimmed excess whitespace
 - 
 - data_jobs_all
-<img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/6c200dc1b3dbeb3ae49d65bb34b39c7ca8cbb91f/Transform-salary.jpg" width=100%>
+<img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/6c200dc1b3dbeb3ae49d65bb34b39c7ca8cbb91f/Transform-salary.jpg">
 - data_job_salary
-<img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/6c200dc1b3dbeb3ae49d65bb34b39c7ca8cbb91f/Transform-skills.jpg" width=100%>
+<img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/6c200dc1b3dbeb3ae49d65bb34b39c7ca8cbb91f/Transform-skills.jpg">
 ##**Load**
 - Finally, I loaded both transformed queries into the workbook
 
