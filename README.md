@@ -42,8 +42,10 @@ It has detailed information on:
 <img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/6c200dc1b3dbeb3ae49d65bb34b39c7ca8cbb91f/Transform-salary.jpg">
 - data_job_salary
 <img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/6c200dc1b3dbeb3ae49d65bb34b39c7ca8cbb91f/Transform-skills.jpg">
-##**Load**
+## **Load**
 - Finally, I loaded both transformed queries into the workbook
+<img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/586dfa7bac85c398dca91709f912a2ed40c76592/Load-all.jpg">
+<img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/586dfa7bac85c398dca91709f912a2ed40c76592/Load-skills.jpg">
 
 ## Analysis
 
