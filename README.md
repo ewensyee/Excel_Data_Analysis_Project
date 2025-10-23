@@ -54,5 +54,9 @@ It has detailed information on:
     
 <img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/586dfa7bac85c398dca91709f912a2ed40c76592/Load-skills.jpg">
 
-## Analysis
+## Insights
+<img width="893" height="474" alt="image" src="https://github.com/user-attachments/assets/39d81d3f-36fc-40bc-90a4-489663e5392c" />
+
+- There 
+
 
