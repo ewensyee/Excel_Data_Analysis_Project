@@ -55,7 +55,8 @@ It has detailed information on:
 <img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/586dfa7bac85c398dca91709f912a2ed40c76592/Load-skills.jpg">
 
 ## Insights
-- There
+- There is a positive relationship between the number of skills and the median salary. Jobs that require more skills tend to offer higher paying salaries such as roles in Senior Data Engineer and Senior Data Scientists.
+- An outlier would be Data Scientists, it shows they have a high salary whilse a lower skill average, this could hint that experience or role level could affect the pay more than skill count.
 
 <img width="893" height="474" alt="image" src="https://github.com/user-attachments/assets/5f8a4a85-5dca-4582-817d-1e62128e2c24" />
 
