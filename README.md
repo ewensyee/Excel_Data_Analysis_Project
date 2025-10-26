@@ -27,7 +27,7 @@ It has detailed information on:
 4. What's the pay for the top 10 skills?
    
 ## 1. Does more skills get you a higher paying job?
-## Power Query: ETL
+### Skill: Power Query (ETL)
 
 ### Extract
 - I used Power Query to extract the original dataset to create two queries
@@ -58,6 +58,24 @@ It has detailed information on:
 
 <img width="893" height="474" alt="image" src="https://github.com/user-attachments/assets/5f8a4a85-5dca-4582-817d-1e62128e2c24" />
 
+## 2. What's the median salary for data jobs when compared to the US and countries outside the US?
+### Skills: Pivot Tables & DAX
+- I created a PivotTable using the Data Model I created with Power Pivot, where I joined the data_jobs_salary with data_jobs_skills, where the flow goes from data_jobs_salary to data_jobs_skills.
+- Moving the job_title_short to the rows field and the salary_year_avg into the values field, however, I could not get value field to be MEDIAN, which I had to use DAX to add a new measure to calculate the median salary from salary_year_avg.
+- I first needed to add a new measure to calculate the median salary for United States Job.
+```
+=CALCULATE(MEDIAN(data_jobs_salary[salary_year_avg], data_jobs_salary[job_country] = "United States")
+```
+- I then needed to add a new measure to calculate the median salary for data jobs that are not in the United States.
+```
+=CACULATE(MEDIAN(data_jobs_salary[salary_year_avg], data_jobs_salary[job_country] <> "United States")
+```
+- Finally, I needed to add a new measure to calculate the median salary for data jobs as a baseline.
+```
+Median Salary := MEDIAN(data_jobs_salary[salary_year_avg])
+```
+
+### Insights
 
 
 
