@@ -111,6 +111,7 @@ Median Salary := MEDIAN(data_jobs_salary[salary_year_avg])
 <img width="1005" height="478" alt="image" src="https://github.com/user-attachments/assets/91b701f4-7023-420d-b234-ce752512c3b6" />
 
 # Dashboard
+If you want to play around with the dashboard you can through this [link](https://1drv.ms/x/c/eeea490656099efa/EfjZh-Hw6SRLmH31vhHI0HkBsKLoMzhQnKpuw48AXaI3Yg?e=VCmZUa).
 <img width="972" height="678" alt="image" src="https://github.com/user-attachments/assets/c1bd647b-fd10-4225-a815-49c5f2330e65" />
 
 
