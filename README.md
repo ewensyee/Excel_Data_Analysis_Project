@@ -76,9 +76,31 @@ Median Salary := MEDIAN(data_jobs_salary[salary_year_avg])
 <img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/0a8113d0063e3c4f75e87a417cc83083b2de729b/images/median%20calculation.jpg">
 
 ### Insights
-- In New Zealand, roles such as Data Engineer and Data Scientist tend to have higher average salaries than both the United States and internationally, showing that technical and analytical expertise are highly valued in New Zealand. 
+- In New Zealand, roles such as Data Engineer and Data Scientist tend to have higher average salaries than both the United States and internationally, showing that technical and analytical expertise are highly valued in New Zealand.
+- These salary insights help jobseekers focus choose the role to focus on while considering geographical locations. While also helping companies align their offers with the market standards while considering geographical locations.
 <img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/5d55bc148c3e15feec7f6b79280ff8c399bb101c/images/second%20question.jpg">
 
 ## 3. What are the top skills for data jobs?
 ### Skill: Power Pivot
 - I created a PivotTable using the Data Model I created with Power Pivot, where I joined the data_jobs_salary with data_jobs_skills, where the flow goes from data_jobs_salary to data_jobs_skills.
+- I created a relationship between my two tables using the job_id column.
+<img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/4d1dafdf48794be33d3a93806382eda0c6eec750/images/data%20model.jpg">
+
+- Moving the skills to the rows field and skill likelihood into the values field.
+  - Creating the measure of skill likelihood, I used DAX to calculate the likelihood of skills appearing in job postings.
+```
+= DIVIDE([skill_count], [job_count])
+```
+### Insights
+- In data related jobs, SQL and Python are the most in-demand skills, where SQL appears nearly 60% of data job postings, with Python following closely.
+- Big data and cloud tools such as Spark, Azure and AWS appear in several postings, underlining the industry's shift towards more scalable data solutions.
+- Understanding a wide range or skills is necessary in the current industry.
+<img width="846" height="454" alt="image" src="https://github.com/user-attachments/assets/0f08dc32-72eb-4674-ae2c-2ee54210bbb8" />
+
+## 4. What's the pay for the top 10 skills?
+### Skills: Pivot Chart
+
+<img width="1005" height="478" alt="image" src="https://github.com/user-attachments/assets/91b701f4-7023-420d-b234-ce752512c3b6" />
+
+
+
