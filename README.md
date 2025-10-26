@@ -1,6 +1,7 @@
 # Excel_Data_Analysis_Project
 
 ## Introduction
+In today's competitive job market, understanding how job requirements translate into salary outcomes is important for both job seekers and employers. This project explores a dataset of global data job postings in 2023. This project sets out to find the most important and highest paying skills in the data job market.
 
 ## Excel Skills Used
 - Pivot Tables
@@ -106,6 +107,9 @@ Median Salary := MEDIAN(data_jobs_salary[salary_year_avg])
 ### Insights
 - In the data industry, Spark is the highest-paying skill, despite having the highest-paying skill, it has the lowest skill count which suggests it's a more specialized skill in higher demand than its current supply.
 - Excel is a high in-demand skill but with low-paying skill, which could indicate the skill is widely known and may be a foundational skill rather than a specialized skill in the job market.
+
+# Dashboard
+
 
 <img width="1005" height="478" alt="image" src="https://github.com/user-attachments/assets/91b701f4-7023-420d-b234-ce752512c3b6" />
 
