@@ -108,10 +108,11 @@ Median Salary := MEDIAN(data_jobs_salary[salary_year_avg])
 - In the data industry, Spark is the highest-paying skill, despite having the highest-paying skill, it has the lowest skill count which suggests it's a more specialized skill in higher demand than its current supply.
 - Excel is a high in-demand skill but with low-paying skill, which could indicate the skill is widely known and may be a foundational skill rather than a specialized skill in the job market.
 
-# Dashboard
-
-
 <img width="1005" height="478" alt="image" src="https://github.com/user-attachments/assets/91b701f4-7023-420d-b234-ce752512c3b6" />
+
+# Dashboard
+<img width="972" height="678" alt="image" src="https://github.com/user-attachments/assets/c1bd647b-fd10-4225-a815-49c5f2330e65" />
+
 
 
 
