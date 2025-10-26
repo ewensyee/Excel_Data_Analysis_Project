@@ -60,7 +60,6 @@ It has detailed information on:
 
 ## 2. What's the median salary for data jobs when compared to the US and countries outside the US?
 ### Skills: Pivot Tables & DAX
-- I created a PivotTable using the Data Model I created with Power Pivot, where I joined the data_jobs_salary with data_jobs_skills, where the flow goes from data_jobs_salary to data_jobs_skills.
 - Moving the job_title_short to the rows field and the salary_year_avg into the values field, however, I could not get value field to be MEDIAN, which I had to use DAX to add a new measure to calculate the median salary from salary_year_avg.
 - I first needed to add a new measure to calculate the median salary for United States Job.
 ```
@@ -74,8 +73,12 @@ It has detailed information on:
 ```
 Median Salary := MEDIAN(data_jobs_salary[salary_year_avg])
 ```
+<img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/0a8113d0063e3c4f75e87a417cc83083b2de729b/images/median%20calculation.jpg">
 
 ### Insights
+- In New Zealand, roles such as Data Engineer and Data Scientist tend to have higher average salaries than both the United States and internationally, showing that technical and analytical expertise are highly valued in New Zealand. 
+<img src="https://github.com/ewensyee/Excel_Data_Analysis_Project_with_Dashboard/blob/5d55bc148c3e15feec7f6b79280ff8c399bb101c/images/second%20question.jpg">
 
-
-
+## 3. What are the top skills for data jobs?
+### Skill: Power Pivot
+- I created a PivotTable using the Data Model I created with Power Pivot, where I joined the data_jobs_salary with data_jobs_skills, where the flow goes from data_jobs_salary to data_jobs_skills.
